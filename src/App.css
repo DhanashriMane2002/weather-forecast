@@ -1,0 +1,166 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+.home-container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.home-content {
+  height: 100%;
+  width: 100%;
+  background: url("D:\projects\demo-app\public\images\wheather.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.contact-content {
+  height: 100%;
+}
+
+.signup-container {
+  height: 100%;
+  width: 100%;
+  background: url("D:\projects\demo-app\public\images\wheather.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+.login-container {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-container {
+  height: 200px;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.signup-form-container {
+  display: flex;
+  height: 18rem;
+  width: 20rem;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #1c87c9;
+}
+
+.signup-form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-input-container {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.signup-input-container label {
+  font-family: cursive;
+  font-size: 14px;
+}
+
+.loginlabel {
+  font-family: cursive;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.signup-input {
+  margin-left: 0.5rem;
+  height: 1.5rem;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.signup-submit-button {
+  width: 80%;
+  height: 2rem;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  background-color: lightskyblue;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50%;
+  width: 100%;
+}
+.search-bar-input-container{
+  min-width: 20rem;
+  min-height: 2rem;
+  display: flex;
+}
+.search-bar-input{
+  min-width: 100%;
+  min-height: 100%;
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  outline: none;
+}
+.search-input-label{
+  min-width: 4rem;
+  min-height: 100%;
+  background-color: yellow;
+  border-radius: 0px 20px 20px 0px;
+  border: none;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.wheather-info-display-container-wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 50%;
+  width: 100%;
+}
+.wheather-info-display-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+.wheather-info-display-container label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 2rem;
+}
